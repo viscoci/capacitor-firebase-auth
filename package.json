@@ -1,6 +1,6 @@
 {
 	"name": "capacitor-firebase-auth",
-	"version": "2.3.5",
+	"version": "8.1.2",
 	"description": "Capacitor plugin for Firebase Authentication",
 	"main": "dist/esm/index.js",
 	"types": "dist/esm/index.d.ts",
@@ -17,13 +17,15 @@
 		"@capacitor/core": "latest"
 	},
 	"devDependencies": {
-		"rimraf": "^3.0.0",
-		"typescript": "^3.9.5",
+		"@capacitor/android": "latest",
 		"@capacitor/ios": "latest",
-		"@capacitor/android": "latest"
+		"firebase": "^8.1.2",
+		"rimraf": "^3.0.0",
+		"rxjs": "^6.6.3",
+		"typescript": "^4.0.5"
 	},
 	"peerDependencies": {
-		"firebase": "^7.24.0",
+		"firebase": "^8.1.2",
 		"rxjs": "~6.6.3"
 	},
 	"files": [
@@ -48,9 +50,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/baumblatt/capacitor-firebase-auth.git"
+		"url": "https://github.com/viscoci/capacitor-firebase-auth.git"
 	},
 	"bugs": {
-		"url": "https://github.com/baumblatt/capacitor-firebase-auth.git/issues"
+		"url": "https://github.com/viscoci/capacitor-firebase-auth.git/issues"
 	}
 }
