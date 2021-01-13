@@ -4,9 +4,9 @@
     s.version = '2.3.5'
     s.summary = 'Capacitor plugin for Firebase Authentication'
     s.license = 'MIT'
-    s.homepage = 'https://github.com/baumblatt/capacitor-firebase-auth.git'
+    s.homepage = 'https://github.com/viscoci/capacitor-firebase-auth.git'
     s.author = 'Bernardo Baumblatt'
-    s.source = { :git => 'https://github.com/baumblatt/capacitor-firebase-auth.git', :tag => s.version.to_s }
+    s.source = { :git => 'https://github.com/viscoci/capacitor-firebase-auth.git', :tag => s.version.to_s }
     s.source_files = 'ios/Plugin/**/*.{swift,h,m,c,cc,mm,cpp}'
     s.ios.deployment_target  = '11.0'
     s.dependency 'Capacitor'
